@@ -1,0 +1,13 @@
+{
+  "transform": {
+    "^.+\\.tsx?$": [
+      "esbuild-jest",
+      {
+        "sourcemap": false,
+        "loaders": {
+          ".spec.ts": "tsx"
+        }
+      }
+    ]
+  }
+}
